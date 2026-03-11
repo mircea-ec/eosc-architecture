@@ -2780,10 +2780,8 @@ Exchange services**
 style="width:5.24651in;height:5.21875in" />
 
 **Table 11 - Horizontal integrations of the high-level components of
-Exchange services**
-
-<img src="./media/image20.emf"
-style="width:5.90625in;height:5.89044in" />
+Exchange
+services**<img src="./media/image20.png" style="width:5.8179in;height:5.89in" />
 
 #### 8.5.4 Exchange Services Workflows
 
@@ -3142,10 +3140,8 @@ entry point while preserving service-specific expertise at the
 operational level.
 
 **Table 15 - Integrations of the major components (services) with
-auxiliary services**
-
-<img src="./media/image26.emf"
-style="width:6.02987in;height:6.73214in" />
+auxiliary
+services**<img src="./media/image26.png" style="width:6.5in;height:7.20486in" />
 
 Table 15 summarises the integration relationships between Exchange
 managed services and auxiliary services.
@@ -3176,9 +3172,8 @@ complete set of capabilities remains accessible through direct
 interaction with native APIs, Web interfaces, GUI clients, CLI tools,
 and REST endpoints of the managed services.
 
-**Table 16 - Integrations of the major components (services)**
-
-<img src="./media/image27.emf" style="width:6.225in;height:8.84167in" />
+**Table 16 - Integrations of the major components
+(services)**<img src="./media/image27.png" style="width:6.38889in;height:9in" />
 
 Table 16 provides a consolidated overview of the integration
 relationships between the major managed components and Core services.
@@ -3204,7 +3199,7 @@ blind spots and strengthens SLA validation processes.
 
 **Table 17 - Integrations of the auxiliary services**
 
-<img src="./media/image28.emf" style="width:6.225in;height:4.23333in" />
+<img src="./media/image28.png" style="width:6.35213in;height:4.23in" />
 
 Table 17 summarises the integration relationships among the auxiliary
 services.
@@ -3228,9 +3223,8 @@ external mail service providers, the platform ensures reliability and
 compliance without expanding operational complexity.
 
 **Table 18 - Integrations of the major components (services) of Exchange
-Services with selected Core services**
-
-<img src="./media/image29.emf" style="width:6.225in;height:7.40833in" />
+Services with selected Core
+services**<img src="./media/image29.png" style="width:5.85346in;height:7.41in" />
 
 Table 18 summarises the integration relationships between Exchange
 managed services and selected external systems, including DNS and mail
