@@ -128,7 +128,7 @@
 </colgroup>
 <thead>
 <tr>
-<th><img src="./media/image1.png"
+<th><img src="architecture-images/media/image1.png"
 style="width:1.62307in;height:0.58333in" /></th>
 <th><h5
 id="directorate-general-for-communications-networks-content-and-technology">Directorate-General
@@ -1569,7 +1569,8 @@ Together, these components form a cohesive Infrastructure-as-a-Service
 (IaaS) layer that provides elastic compute, networking, and persistent
 storage resources.
 
-<img src="./media/image2.png" style="width:4.9375in;height:3.98958in" />
+<img src="architecture-images/media/image2.png"
+style="width:4.9375in;height:3.98958in" />
 
 **Figure 1 - OpenStack conceptual architecture**
 
@@ -1593,7 +1594,7 @@ autonomous object storage daemons, monitor nodes, and metadata servers
 that collectively ensure data integrity and consistent performance under
 high-throughput workloads.
 
-<img src="./media/image3.png"
+<img src="architecture-images/media/image3.png"
 style="width:3.70833in;height:2.64583in" />
 
 **Figure 2 - OpenStack conceptual architecture**
@@ -1619,7 +1620,8 @@ OKD delivers automated container deployment, scaling, and lifecycle
 management while abstracting infrastructure complexity from application
 developers and research teams.
 
-<img src="./media/image4.png" style="width:4.18in;height:3.31667in" />
+<img src="architecture-images/media/image4.png"
+style="width:4.18in;height:3.31667in" />
 
 **Figure 3 - OKD Architecture Overview**
 
@@ -1647,7 +1649,8 @@ Service ([FTS](https://pos.sissa.it/239/028/pdf))** platform, which acts
 as a centralised orchestration and monitoring component coordinating
 large-scale third-party data transfers.
 
-<img src="./media/image5.png" style="width:4.46333in;height:2.38in" />
+<img src="architecture-images/media/image5.png"
+style="width:4.46333in;height:2.38in" />
 
 **Figure 4 - FTS architecture overview**
 
@@ -1679,7 +1682,8 @@ capabilities provided by OpenStack and Ceph, thereby establishing a
 layered stack in which container orchestration is directly supported by
 virtualised infrastructure resources.
 
-<img src="./media/image6.jpg" style="width:4.33333in;height:2.1875in" />
+<img src="architecture-images/media/image6.jpg"
+style="width:4.33333in;height:2.1875in" />
 
 **Figure 5 - Integrated layers of compute, storage and services at data
 centres**
@@ -1699,7 +1703,8 @@ has been designed and implemented. This component acts as an
 intermediary orchestration layer between the Web Portal Front Office and
 the underlying infrastructure services.
 
-<img src="./media/image7.jpg" style="width:4.5625in;height:2.77083in" />
+<img src="architecture-images/media/image7.jpg"
+style="width:4.5625in;height:2.77083in" />
 
 **Figure 6 - Self-service API integration with OpenStack and OKD**
 
@@ -1736,7 +1741,7 @@ accessible to user project spaces within OpenStack and OKD environments.
 Namespace mappings and access control policies ensure that only
 authorised users and projects can access designated storage segments.
 
-<img src="./media/image8.jpg"
+<img src="architecture-images/media/image8.jpg"
 style="width:5.90625in;height:2.08141in" />
 
 **Figure 7 - The bulk data transfer service integration with back-end
@@ -1757,7 +1762,7 @@ distributed, horizontally scalable architecture that replaces monolithic
 design patterns with modular service components, thereby enhancing
 performance, maintainability, and extensibility.
 
-<img src="./media/image9.png"
+<img src="architecture-images/media/image9.png"
 style="width:5.24333in;height:2.63667in" />
 
 **Figure 8 - ownCloud OCIS architecture overview - in comparison with
@@ -1779,7 +1784,7 @@ JupyterHub manages authentication, resource allocation, and session
 lifecycle control while enabling isolated execution environments for
 individual users.
 
-<img src="./media/image10.jpg"
+<img src="architecture-images/media/image10.jpg"
 style="width:2.86458in;height:2.77083in" />
 
 **Figure 9 - Jupyter Hub architecture overview**
@@ -1800,7 +1805,7 @@ supports authenticated transfers, time-limited download links, and audit
 logging, making it suitable for controlled dissemination of research
 artefacts and datasets.
 
-<img src="./media/image11.png"
+<img src="architecture-images/media/image11.png"
 style="width:5.05208in;height:2.89434in" />
 
 **Figure 10 - Large File Transfer Service overview**
@@ -1816,7 +1821,7 @@ for notebook users. Through this integration, Jupyter users are able to
 store, retrieve, and manage notebook files, source code, and analytical
 datasets directly within their allocated ownCloud storage spaces.
 
-<img src="./media/image12.jpg"
+<img src="architecture-images/media/image12.jpg"
 style="width:4.16667in;height:3.36061in" />
 
 **Figure 11 - Jupyter Notebook service integration with ownCloud-based
@@ -2161,7 +2166,7 @@ consuming available credit balances. The diagram represents the typical
 lifecycle of a service request from initial discovery to resource
 activation and subsequent utilisation.
 
-<img src="./media/image14.svg"
+<img src="architecture-images/media/image14.svg"
 style="width:4.71651in;height:7.07292in" />
 
 **Figure 12 - High-level overview of the user flow to allocate resources
@@ -2206,7 +2211,7 @@ portal functions.
 
 ### 8.3 Application Structure Diagram
 
-<img src="./media/image15.png"
+<img src="architecture-images/media/image15.png"
 style="width:6.14586in;height:5.34792in" />
 
 **Figure 13 - Conceptual Architecture of the EOSC EU Node.**
@@ -2680,7 +2685,7 @@ dependency are provided in the Annexes.
 
 **Table 10 - EOSC EU Node Core services integration matrix**
 
-<img src="./media/image16.jpg"
+<img src="architecture-images/media/image16.jpg"
 style="width:9.27156in;height:4.78125in" />
 
 ### 8.5 Additional Architectural Details
@@ -2697,13 +2702,14 @@ Large File Transfer (Figure 15). Detailed component breakdowns, workflow
 definitions, and interface specifications are documented in subsequent
 sections.
 
-<img src="./media/image17.png"
+<img src="architecture-images/media/image17.png"
 style="width:6.35417in;height:3.62728in" />
 
 **Figure 14 - High-level architecture diagram Exchange Infrastructure
 services**
 
-<img src="./media/image18.png" style="width:6.39068in;height:3.375in" />
+<img src="architecture-images/media/image18.png"
+style="width:6.39068in;height:3.375in" />
 
 **Figure 15 - High-level architecture diagram Exchange Application
 services**
@@ -2776,12 +2782,12 @@ multi-service research workflows.
 **Table 10 - Vertical integrations of the high-level components of
 Exchange services**
 
-<img src="./media/image19.png"
+<img src="architecture-images/media/image19.png"
 style="width:5.24651in;height:5.21875in" />
 
 **Table 11 - Horizontal integrations of the high-level components of
-Exchange
-services**<img src="./media/image20.png" style="width:5.8179in;height:5.89in" />
+Exchange services**<img src="architecture-images/media/image20.png"
+style="width:5.8179in;height:5.89in" />
 
 #### 8.5.4 Exchange Services Workflows
 
@@ -2859,7 +2865,7 @@ remain federated and aligned with EOSC EU Node identity policies. For
 clarity and simplicity, authentication and authorisation steps are not
 depicted in the referenced workflow diagrams.
 
-<img src="./media/image21.jpg"
+<img src="architecture-images/media/image21.jpg"
 style="width:5.90625in;height:5.03125in" />
 
 **Figure 16 - Direct interaction of the end-users with Exchange
@@ -2898,7 +2904,7 @@ interoperability. It is particularly suitable for users who require a
 harmonised experience across multiple EOSC EU Node services without
 engaging directly with infrastructure-level controls.
 
-<img src="./media/image22.png"
+<img src="architecture-images/media/image22.png"
 style="width:5.89861in;height:4.00694in" />
 
 **Figure 17 - End-users interaction with Exchange services through the
@@ -2969,7 +2975,7 @@ context of the EOSC EU Node platform. As with end-user workflows,
 federated authentication and authorisation mechanisms apply but are not
 depicted in the associated diagrams for clarity.
 
-<img src="./media/image23.png"
+<img src="architecture-images/media/image23.png"
 style="width:5.90556in;height:4.97847in" />
 
 **Figure 18 - Service administration workflows (direct path)**
@@ -3010,7 +3016,7 @@ to the relevant Exchange service interfaces. This ensures consistency of
 governance, auditability, and alignment with EOSC EU Node operational
 policies.
 
-<img src="./media/image24.png"
+<img src="architecture-images/media/image24.png"
 style="width:5.90556in;height:4.00694in" />
 
 **Figure 19 - Exchange service administration workflows initiated by
@@ -3095,7 +3101,7 @@ through the Web Portal Front Office, which integrates service APIs and
 abstracts underlying technical complexity. This dual-consumption model
 ensures both technical flexibility and user-oriented integration.
 
-<img src="./media/image25.png"
+<img src="architecture-images/media/image25.png"
 style="width:6.48958in;height:7.26586in" />
 
 **Figure 20 – Exchange service architecture (conceptual view)**
@@ -3140,8 +3146,8 @@ entry point while preserving service-specific expertise at the
 operational level.
 
 **Table 15 - Integrations of the major components (services) with
-auxiliary
-services**<img src="./media/image26.png" style="width:6.5in;height:7.20486in" />
+auxiliary services**<img src="architecture-images/media/image26.png"
+style="width:6.5in;height:7.20486in" />
 
 Table 15 summarises the integration relationships between Exchange
 managed services and auxiliary services.
@@ -3173,7 +3179,8 @@ interaction with native APIs, Web interfaces, GUI clients, CLI tools,
 and REST endpoints of the managed services.
 
 **Table 16 - Integrations of the major components
-(services)**<img src="./media/image27.png" style="width:6.38889in;height:9in" />
+(services)**<img src="architecture-images/media/image27.png"
+style="width:6.38889in;height:9in" />
 
 Table 16 provides a consolidated overview of the integration
 relationships between the major managed components and Core services.
@@ -3199,7 +3206,8 @@ blind spots and strengthens SLA validation processes.
 
 **Table 17 - Integrations of the auxiliary services**
 
-<img src="./media/image28.png" style="width:6.35213in;height:4.23in" />
+<img src="architecture-images/media/image28.png"
+style="width:6.35213in;height:4.23in" />
 
 Table 17 summarises the integration relationships among the auxiliary
 services.
@@ -3224,7 +3232,8 @@ compliance without expanding operational complexity.
 
 **Table 18 - Integrations of the major components (services) of Exchange
 Services with selected Core
-services**<img src="./media/image29.png" style="width:5.85346in;height:7.41in" />
+services**<img src="architecture-images/media/image29.png"
+style="width:5.85346in;height:7.41in" />
 
 Table 18 summarises the integration relationships between Exchange
 managed services and selected external systems, including DNS and mail
@@ -3251,7 +3260,7 @@ Furthermore, interactions with accounting and monitoring services are
 aggregated rather than represented as individual links, in order to
 avoid visual overload and maintain diagram comprehensibility.
 
-<img src="./media/image30.png"
+<img src="architecture-images/media/image30.png"
 style="width:6.4353in;height:7.29167in" />
 
 **Figure 21 – Exchange service architecture (logical view)**
@@ -3262,7 +3271,8 @@ provided by PSNC and Safespring. This view maps logical components to
 concrete infrastructure elements such as virtual machines, container
 clusters, storage backends, and networking layers.
 
-<img src="./media/image31.png" style="width:6.5in;height:4.8108in" />
+<img src="architecture-images/media/image31.png"
+style="width:6.5in;height:4.8108in" />
 
 **Figure 22 - Physical Deployment diagram of the EOSC EU Node.**
 
@@ -3270,7 +3280,7 @@ Figure 22 presents the physical deployment diagram of the EOSC EU Node
 Core platform services for contextual reference. Figure 23 presents the
 physical deployment view specific to the Exchange services architecture.
 
-<img src="./media/image32.png"
+<img src="architecture-images/media/image32.png"
 style="width:6.57292in;height:7.43973in" />
 
 **Figure 23 - service architecture (physical deployment view)**
@@ -3341,7 +3351,8 @@ domains: the **Web Front-Office** and the **User Space**.
 The architecture overview diagrams illustrate the principal interaction
 flows between users and the Web Portal FO.
 
-<img src="./media/image34.svg" style="width:4.60417in;height:5.75in" />
+<img src="architecture-images/media/image34.svg"
+style="width:4.60417in;height:5.75in" />
 
 **Figure A1 - Web Front-Office (CMS-Drupal) flow to fulfil a web page
 request**
@@ -3388,7 +3399,8 @@ instantiation of a Business Process Model and Notation (BPMN) workflow,
 which governs the contributor onboarding lifecycle. Upon initiation of
 this workflow, the user is redirected to the Contributor Dashboard.
 
-<img src="./media/image36.svg" style="width:6.5in;height:3.58621in" />
+<img src="architecture-images/media/image36.svg"
+style="width:6.5in;height:3.58621in" />
 
 **Figure A2 - Web Front-Office Flow Diagram**
 
@@ -3452,7 +3464,8 @@ through well-defined APIs. These components are deployed as
 containerised services within a Kubernetes orchestration environment and
 communicate via secure API endpoints.
 
-<img src="./media/image38.svg" style="width:6.5in;height:4.2592in" />
+<img src="architecture-images/media/image38.svg"
+style="width:6.5in;height:4.2592in" />
 
 **Figure A3 - Application Structure of the Web Portal FO**
 
@@ -3468,7 +3481,8 @@ by the front-end components and presented to the user.
 The architecture cleanly separates presentation logic from backend
 business logic, ensuring maintainability, extensibility, and resilience.
 
-<img src="./media/image39.png" style="width:6.5in;height:4.20923in" />
+<img src="architecture-images/media/image39.png"
+style="width:6.5in;height:4.20923in" />
 
 **Figure A4 - Interaction of Web Portal FO (Web Front-Office and User
 Space) with other systems.**
@@ -3483,7 +3497,7 @@ mechanisms are implemented to ensure reliable and secure operations.
 Persistent storage and database components are deployed in clustered
 configurations to support redundancy and fault tolerance.
 
-<img src="./media/image40.png"
+<img src="architecture-images/media/image40.png"
 style="width:6.21181in;height:5.45139in" />
 
 **Figure A5 - Physical Deployment Diagram of the Web Portal FO**
@@ -3551,7 +3565,7 @@ Drupal 10 follows a layered architectural model composed of five
 principal layers: data (nodes), modules, blocks and menus, user
 permissions, and the presentation template layer.
 
-<img src="./media/image41.gif"
+<img src="architecture-images/media/image41.gif"
 style="width:3.79028in;height:4.03542in" />
 
 **Figure A6 - Layers of Drupal 10 Architecture**
@@ -3592,7 +3606,7 @@ these requests to the relevant Drupal modules. Modules process the
 request, retrieve or manipulate data, and return results, which are then
 rendered by the theme layer and displayed to the user.
 
-<img src="./media/image42.jpeg"
+<img src="architecture-images/media/image42.jpeg"
 style="width:5.90556in;height:2.88125in" />
 
 **Figure A7 - Flow from user input through the theme layer, down to the
@@ -3617,7 +3631,7 @@ Administrative permissions within Drupal are defined per content type
 and may include the ability to create content, edit one’s own content,
 edit any content, delete one’s own content, or delete any content.
 
-<img src="./media/image43.jpeg"
+<img src="architecture-images/media/image43.jpeg"
 style="width:5.90556in;height:2.00347in" />
 
 **Figure A8 - Drupal modules and custom modules structure**
@@ -3704,7 +3718,7 @@ Catalogues and Registry Services. Its architecture supports large-scale
 metadata ingestion, transformation, consolidation, quality assurance,
 and exposure for search and discovery.
 
-<img src="./media/image44.png"
+<img src="architecture-images/media/image44.png"
 style="width:5.90556in;height:2.69722in" />
 
 **Figure A9 - MKG harvesting workflow**
@@ -3717,7 +3731,7 @@ persistent identifiers, and finally indexed for discovery and API
 access. The workflow ensures traceability of provenance and supports
 repeatable monthly production cycles.
 
-<img src="./media/image45.png"
+<img src="architecture-images/media/image45.png"
 style="width:5.90556in;height:4.31875in" />
 
 **Figure A10 - MKG Application Structure**
@@ -3733,7 +3747,7 @@ through harmonisation and validation engines, and finally into the
 curated Knowledge Graph and its indexed representation. Each processing
 stage produces auditable outputs and status metadata.
 
-<img src="./media/image46.png"
+<img src="architecture-images/media/image46.png"
 style="width:6.26875in;height:5.24167in" />
 
 **Figure A11 - MKG interfaces with other systems**
@@ -3742,7 +3756,7 @@ The physical deployment of the MKG is implemented in a containerised
 environment orchestrated by Kubernetes, ensuring elasticity, high
 availability, controlled scaling, and operational resilience.
 
-<img src="./media/image47.png"
+<img src="architecture-images/media/image47.png"
 style="width:6.26693in;height:3.63542in" />
 
 **Figure A12 - MKG Physical Deployment View**
@@ -3949,7 +3963,8 @@ user interaction tracking.
 The application structure defines the core runtime components of the
 Recommendation System.
 
-<img src="./media/image49.svg" style="width:6.5in;height:5.2216in" />
+<img src="architecture-images/media/image49.svg"
+style="width:6.5in;height:5.2216in" />
 
 **Figure A13 - Recommendation system Application Structure**
 
@@ -3978,7 +3993,8 @@ data.
 The third entry point consists of event-driven ingestion of user
 actions, enabling continuous model enrichment.
 
-<img src="./media/image51.svg" style="width:6.5in;height:4.48708in" />
+<img src="architecture-images/media/image51.svg"
+style="width:6.5in;height:4.48708in" />
 
 **Figure A14 - Recommendation System interfaces with other systems**
 
@@ -3990,7 +4006,7 @@ computational resources are dimensioned according to expected workload
 patterns. Future optimisations may introduce additional features for
 memory management and model reusability.
 
-<img src="./media/image52.png"
+<img src="architecture-images/media/image52.png"
 style="width:6.26736in;height:7.98056in" />
 
 **Figure A15 - Recommendation system Physical Deployment View**
@@ -4008,7 +4024,7 @@ The onboarding workflow requires providers to submit onboarding
 applications. Upon validation of submitted information against defined
 requirements, resources can be registered in the catalogue.
 
-<img src="./media/image53.jpg"
+<img src="architecture-images/media/image53.jpg"
 style="width:5.90556in;height:2.49861in" />
 
 **Figure A16 - Adding a resource process workflow**
@@ -4017,7 +4033,8 @@ The service onboarding workflow follows a structured business process,
 including validation, metadata submission, review, approval, and
 publication. Other resource types follow a similar blueprint.
 
-<img src="./media/image55.svg" style="width:6.26875in;height:1.1in" />
+<img src="architecture-images/media/image55.svg"
+style="width:6.26875in;height:1.1in" />
 
 **Figure A17 - Business process workflow for onboarding a service in the
 EOSC EU Node**
@@ -4028,7 +4045,7 @@ Each catalogue is deployed as a dedicated logical component with its own
 metadata schema aligned to EOSC Profiles. Metadata schemas are based on
 specifications defined during the EOSC Future project.
 
-<img src="./media/image56.png"
+<img src="architecture-images/media/image56.png"
 style="width:2.88044in;height:5.29167in" />
 
 **Figure A18 - Catalogue system architecture diagram**
@@ -4037,7 +4054,7 @@ The data and information flow architecture illustrates integration with
 the Metadata Knowledge Graph for synchronising metadata updates and with
 the PID Service for minting persistent identifiers.
 
-<img src="./media/image58.svg"
+<img src="architecture-images/media/image58.svg"
 style="width:6.18712in;height:3.95833in" />
 
 **Figure A19 - Catalogues and registries interfaces with other systems**
@@ -4054,7 +4071,7 @@ a shared Database Cluster hosting metadata schemas for all registries.
 The database cluster ensures high availability, transactional
 consistency, and performance optimisation.
 
-<img src="./media/image59.png"
+<img src="architecture-images/media/image59.png"
 style="width:6.26736in;height:4.14028in" />
 
 **Figure A20 - Catalogues and registries physical deployment view**
@@ -4069,7 +4086,7 @@ framework. Both providers operate high-performance data centre
 infrastructures equipped with modern compute, storage, and
 virtualisation capabilities.
 
-<img src="./media/image60.png"
+<img src="architecture-images/media/image60.png"
 style="width:6.26875in;height:6.26875in" />
 
 **Figure A21 - Architecture Overview Diagram of the PID Service**
@@ -4095,7 +4112,7 @@ The Handle System runtime environment requires Java, with an embedded
 Jetty servlet container providing the HTTP interface for REST-based
 interactions.
 
-<img src="./media/image61.png"
+<img src="architecture-images/media/image61.png"
 style="width:6.26875in;height:2.72014in" />
 
 **Figure A22 - Deployment view of the PID Service**
@@ -4162,7 +4179,7 @@ The Application Management Layer is deployed on top of a Kubernetes
 cluster to ensure scalability, high availability, and operational
 resilience.
 
-<img src="./media/image62.png"
+<img src="architecture-images/media/image62.png"
 style="width:6.26042in;height:4.74756in" />
 
 **Figure A23 - Architecture of the Application Workflow Management
@@ -4189,7 +4206,7 @@ controlled and secure retrieval of authentication material during
 deployment operations, ensuring that sensitive credentials are not
 persistently exposed within application components.
 
-<img src="./media/image63.png"
+<img src="architecture-images/media/image63.png"
 style="width:5.90625in;height:5.54299in" />
 
 **Figure A 24 - Deployment diagram of the Application Workflow
@@ -4226,7 +4243,7 @@ request is forwarded to the Application Management Layer for execution.
 The deployment flow includes validation of quotas, resource allocation
 checks, orchestration, and monitoring of execution status.
 
-<img src="./media/image64.jpeg"
+<img src="architecture-images/media/image64.jpeg"
 style="width:6.39654in;height:1.22847in" />
 
 **Figure A25 - Blueprint of the Tools Publishing flow for a tool
@@ -4238,7 +4255,7 @@ Approved tools are registered with associated metadata, assigned
 persistent identifiers where required, and made discoverable via the
 EOSC ecosystem.
 
-<img src="./media/image66.svg"
+<img src="architecture-images/media/image66.svg"
 style="width:5.01667in;height:6.62431in" />
 
 **Figure A26 - Flow in the Tools Market when a user has configured a
@@ -4263,7 +4280,7 @@ A dedicated Database Cluster stores metadata and configuration
 information associated with tool recipes, including version history and
 sharing settings.
 
-<img src="./media/image67.png"
+<img src="architecture-images/media/image67.png"
 style="width:1.28603in;height:4.40625in" />
 
 **Figure A27 - Architecture of the Tools Market**
@@ -4280,7 +4297,7 @@ Recommendation System to enhance personalisation capabilities. Finally,
 it synchronises tool metadata with the Tools Catalogue to ensure
 discoverability and metadata consistency.
 
-<img src="./media/image68.png"
+<img src="architecture-images/media/image68.png"
 style="width:5.90625in;height:2.46875in" />
 
 **Figure A28 - Information flow to and from the Tools Market**
@@ -4298,7 +4315,7 @@ Portal User Space. The database layer is implemented as part of a
 clustered database environment to ensure resilience and high
 availability.
 
-<img src="./media/image69.png"
+<img src="architecture-images/media/image69.png"
 style="width:3.6636in;height:5.90625in" />
 
 **Figure A29 - Deployment diagram for the Tools Market**
@@ -4334,7 +4351,8 @@ environment. It establishes hierarchical dependencies between services
 listed in the Service Catalogue and the underlying service assets
 required to deliver these services to end users.
 
-<img src="./media/image70.png" style="width:5.90625in;height:2.25in" />
+<img src="architecture-images/media/image70.png"
+style="width:5.90625in;height:2.25in" />
 
 **Figure A30 - Workflow to populate the Configuration Management System
 with new entries**
@@ -4371,7 +4389,7 @@ The system exposes a REST API enabling other services to query
 configuration data, retrieve topology information, and update
 configuration states where authorised.
 
-<img src="./media/image71.png"
+<img src="architecture-images/media/image71.png"
 style="width:5.89295in;height:3.80208in" />
 
 **Figure A31 - Architecture of the Configuration Management System**
@@ -4383,7 +4401,7 @@ components: a Web Portal interface for authorised users, a REST API for
 system integration, and a Database Cluster serving as the persistent
 backend.
 
-<img src="./media/image72.png"
+<img src="architecture-images/media/image72.png"
 style="width:5.89161in;height:3.85417in" />
 
 **Figure A32 - Deployment diagram for the Configuration Management
@@ -4464,7 +4482,7 @@ to the Web Portal FO with an active SSO session.
 The Identity Management Managed Service is logically structured into
 multiple interoperating components.
 
-<img src="./media/image73.png"
+<img src="architecture-images/media/image73.png"
 style="width:5.89584in;height:5.57292in" />
 
 **Figure A33 - Application structure diagram for the Identity Management
@@ -4526,7 +4544,7 @@ The Identity Management service is deployed across multiple
 infrastructure regions to ensure resilience, geographical redundancy,
 and fault tolerance.
 
-<img src="./media/image74.png"
+<img src="architecture-images/media/image74.png"
 style="width:6.26111in;height:7.63681in" />
 
 **Figure A34 - Identity Management deployment view on the "AWS Frankfurt
@@ -4537,7 +4555,7 @@ Federation components, and associated services are deployed in a
 containerised environment with managed load balancing and high
 availability configurations.
 
-<img src="./media/image75.png"
+<img src="architecture-images/media/image75.png"
 style="width:3.96875in;height:5.90399in" />
 
 **Figure A35 - Identity Management deployment view on the "GRNET Region"
@@ -4809,7 +4827,7 @@ automated collection of view and download statistics, anonymisation of
 user-related network data, integration with the EOSC EU Node Metadata
 Knowledge Graph (MKG), and generation of downloadable usage reports.
 
-<img src="./media/image76.png"
+<img src="architecture-images/media/image76.png"
 style="width:5.90556in;height:2.30069in" />
 
 **Figure A36 - Accounting for research Products behaviour**
@@ -4826,7 +4844,7 @@ methodological transparency and consistency.
 The application structure separates data collection, aggregation,
 compliance validation, and reporting functionalities.
 
-<img src="./media/image77.png"
+<img src="architecture-images/media/image77.png"
 style="width:5.34301in;height:4.07563in" />
 
 **Figure A37 - Application Structure Diagram**
@@ -4851,7 +4869,7 @@ containerised infrastructure components. Tracking services are exposed
 via scalable endpoints capable of handling large volumes of usage
 events.
 
-<img src="./media/image78.png"
+<img src="architecture-images/media/image78.png"
 style="width:5.68383in;height:3.56042in" />
 
 **Figure A38 - Deployment view**
@@ -4872,7 +4890,7 @@ The EOSC Accounting Service for Services is designed to collect,
 aggregate, and exchange operational and consumption metrics across
 infrastructures, providers, and projects.
 
-<img src="./media/image79.png"
+<img src="architecture-images/media/image79.png"
 style="width:6.26042in;height:1.76042in" />
 
 **Figure A39 - Architecture Diagram for Service Accounting**
@@ -4892,7 +4910,7 @@ endpoints. Incoming data is validated and stored in the accounting
 database. Aggregation processes compute summarised views that are made
 available via both API responses and dashboard interfaces.
 
-<img src="./media/image80.png"
+<img src="architecture-images/media/image80.png"
 style="width:5.93921in;height:2.89346in" />
 
 **Figure A40 - Data and Information flow Diagram for Service
@@ -4908,7 +4926,7 @@ The Service Accounting component is deployed as a scalable backend
 application behind secure API gateways. A database cluster ensures
 durability and performance for incoming metrics.
 
-<img src="./media/image81.png"
+<img src="architecture-images/media/image81.png"
 style="width:5.87595in;height:2.62189in" />
 
 **Figure A41 - Deployment diagram for Service Accounting**
@@ -4926,7 +4944,7 @@ across the EOSC EU Node ecosystem. It provides a simplified REST API
 that abstracts the complexity of underlying messaging protocols while
 ensuring high reliability and scalability.
 
-<img src="./media/image82.png"
+<img src="architecture-images/media/image82.png"
 style="width:5.90556in;height:0.6041in" />
 
 **Figure A42 - Publishing a message workflow with the Messaging
@@ -4942,7 +4960,7 @@ The Messaging Service ensures durability by storing replicated copies of
 messages across multiple servers, thereby guaranteeing at-least-once
 delivery semantics.
 
-<img src="./media/image83.png"
+<img src="architecture-images/media/image83.png"
 style="width:4.23958in;height:5.90625in" />
 
 **Figure A43 - Data and information flow of the Messaging service**
@@ -4973,7 +4991,7 @@ tolerance.
 A distributed metadata store, based on MongoDB, maintains messaging
 configuration and tenancy metadata.
 
-<img src="./media/image84.png"
+<img src="architecture-images/media/image84.png"
 style="width:5.90625in;height:4.08333in" />
 
 **Figure A44 - Deployment of the Messaging service**
@@ -5001,7 +5019,8 @@ Monitoring workflows collect endpoint health data, service metrics, and
 performance indicators. Results are aggregated and visualised through
 dashboards tailored to both providers and end users.
 
-<img src="./media/image85.png" style="width:5.90625in;height:2in" />
+<img src="architecture-images/media/image85.png"
+style="width:5.90625in;height:2in" />
 
 **Figure A45 - Monitoring endpoint workflow and results reporting**
 
@@ -5031,7 +5050,7 @@ Multi-tenancy support allows segmentation of monitoring views and
 configurations. Flexible metric and profile configuration enables
 customisation according to service type and operational needs.
 
-<img src="./media/image86.png"
+<img src="architecture-images/media/image86.png"
 style="width:5.90625in;height:4.35365in" />
 
 **Figure A46 - Architecture of the Monitoring service**
@@ -5047,7 +5066,7 @@ with redundant data collection nodes, aggregation engines, and dashboard
 front-ends. Persistent storage backends retain historical metrics for
 trend analysis and reporting.
 
-<img src="./media/image87.png"
+<img src="architecture-images/media/image87.png"
 style="width:5.90559in;height:4.47917in" />
 
 **Figure A47 - Deployment diagram for the Monitoring service**
@@ -5069,7 +5088,7 @@ Provisioning is executed either by invoking internal Exchange service
 provisioning APIs or, for external services, through a JIRA adapter that
 facilitates communication with external provider systems.
 
-<img src="./media/image88.png"
+<img src="architecture-images/media/image88.png"
 style="width:6.26042in;height:3.83333in" />
 
 **Figure A48 - Order process diagram**
@@ -5088,7 +5107,7 @@ The JIRA adapter provides a structured integration channel with external
 providers, enabling ticket-based provisioning processes where direct API
 integration is not available.
 
-<img src="./media/image89.png"
+<img src="architecture-images/media/image89.png"
 style="width:5.90308in;height:4.37522in" />
 
 **Figure A49 - Interfaces of the Order Management system**
@@ -5112,7 +5131,7 @@ The OMS backend is deployed as a containerised application behind API
 gateways. The BPMN engine operates as a dedicated workflow runtime
 service.
 
-<img src="./media/image90.png"
+<img src="architecture-images/media/image90.png"
 style="width:5.90308in;height:4.6808in" />
 
 **Figure A50 - Deployment diagram for the Order Management system**
@@ -5190,7 +5209,7 @@ Services. Operational metrics, SLA reports, incident statistics, and
 improvement proposals are collected from services and consolidated
 within SMS governance processes.
 
-<img src="./media/image91.png"
+<img src="architecture-images/media/image91.png"
 style="width:5.37482in;height:3.02083in" />
 
 **Figure A51 - Information flow for the Service Management System**
@@ -5244,7 +5263,7 @@ structural limitations.
 The Helpdesk system is structured into a user interface layer, a ticket
 management backend, and integration interfaces.
 
-<img src="./media/image92.png"
+<img src="architecture-images/media/image92.png"
 style="width:5.92708in;height:3.66915in" />
 
 **Figure A52 - Application structure of the Helpdesk system**
@@ -5271,7 +5290,7 @@ Users can submit tickets for any EOSC resource, service, process, or
 procedure. Before submitting a ticket, users can search the integrated
 Knowledge Base to identify existing solutions.
 
-<img src="./media/image93.png"
+<img src="architecture-images/media/image93.png"
 style="width:5.90556in;height:3.75997in" />
 
 **Figure A53 - Helpdesk interfaces**
@@ -5496,7 +5515,7 @@ orchestration, while Ceph ensures resilient data storage across
 distributed nodes. The architecture supports multi-tenancy, resource
 isolation, and API-driven infrastructure provisioning.
 
-<img src="./media/image94.jpg"
+<img src="architecture-images/media/image94.jpg"
 style="width:5.90625in;height:5.29832in" />
 
 **Figure A54 - Logical architecture view of Virtual Machine Service**
@@ -5536,7 +5555,7 @@ The container platform inherits infrastructure resilience from the
 underlying OpenStack and Ceph layers while adding orchestration-level
 fault tolerance and elasticity.
 
-<img src="./media/image95.jpg"
+<img src="architecture-images/media/image95.jpg"
 style="width:5.90625in;height:5.26181in" />
 
 **Figure A55 - Logical architecture view of Cloud Container Platform
@@ -5567,7 +5586,7 @@ a mature solution for large-scale, long-distance data transfers.
 The logical architecture consists of a control plane and distributed
 data transfer workers.
 
-<img src="./media/image96.jpg"
+<img src="architecture-images/media/image96.jpg"
 style="width:5.89717in;height:5.34375in" />
 
 **Figure A56 - Logical architecture view of Bulk Data Transfer service**
@@ -5593,7 +5612,7 @@ instances operate across both sites to enhance resilience. GridFTP
 servers are instantiated at both locations to provide distributed data
 transfer capacity.
 
-<img src="./media/image97.jpg"
+<img src="architecture-images/media/image97.jpg"
 style="width:5.90625in;height:5.67604in" />
 
 **Figure A57 - Deployment view of Bulk Data Transfer service**
@@ -5624,7 +5643,7 @@ integration, sharing controls, and collaboration capabilities. The
 service supports secure file access, versioning, and cross-device
 synchronisation.
 
-<img src="./media/image98.jpg"
+<img src="architecture-images/media/image98.jpg"
 style="width:5.90257in;height:5.09375in" />
 
 **Figure A58 - Logical architecture view of Managed File Synchronisation
@@ -5638,7 +5657,7 @@ Production—are maintained and operated by ownCloud GmbH’s DevOps team.
 Monitoring is conducted by the EOSC EU Node Network Operations Centre
 (NOC).
 
-<img src="./media/image99.jpg"
+<img src="architecture-images/media/image99.jpg"
 style="width:5.90487in;height:5.23958in" />
 
 **Figure A59 - Deployment view of Managed File Synchronisation and
@@ -5671,7 +5690,7 @@ provide a multi-user notebook platform. JupyterHub manages user
 authentication, environment selection, and resource allocation, while
 JupyterLab provides the interactive notebook interface.
 
-<img src="./media/image100.jpg"
+<img src="architecture-images/media/image100.jpg"
 style="width:5.90625in;height:5.2476in" />
 
 **Figure A60 - Logical architecture view of Managed Interactive Notebook
@@ -5705,7 +5724,7 @@ Persistent storage for user home directories is provided by the Managed
 File Synchronisation and Sharing Service (ownCloud). The architecture
 supports horizontal scaling by adding worker nodes as demand increases.
 
-<img src="./media/image101.jpg"
+<img src="architecture-images/media/image101.jpg"
 style="width:5.90487in;height:5.23958in" />
 
 **Figure A61 - Deployment view of Managed Interactive Notebook Service**
@@ -5727,7 +5746,7 @@ The architecture follows a microservices design pattern. Individual
 service components are containerised using Docker and orchestrated
 through Kubernetes (OKD).
 
-<img src="./media/image102.jpg"
+<img src="architecture-images/media/image102.jpg"
 style="width:5.89481in;height:5.09375in" />
 
 **Figure A62 - Logical architecture view of Managed Large File Transfer
@@ -5751,7 +5770,7 @@ The secondary site operates at reduced capacity but can be scaled up in
 the event of a disaster affecting the primary site. This failover
 configuration ensures business continuity.
 
-<img src="./media/image103.jpg"
+<img src="architecture-images/media/image103.jpg"
 style="width:5.90487in;height:5.23958in" />
 
 **Figure A63 - Deployment view of Managed Large File Transfer Service**
