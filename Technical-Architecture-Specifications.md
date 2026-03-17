@@ -5984,8 +5984,7 @@ Transfer</strong></td>
 <td rowspan="2" style="text-align: center;">Apache License 2.0</td>
 </tr>
 <tr>
-<td style="text-align: center;"><a
-href="https://docs.psnc.pl/display/~maciekb"><u> </u></a></td>
+<td style="text-align: center;"><u> </u></td>
 <td style="text-align: center;">FTSmon</td>
 </tr>
 <tr>
@@ -6067,10 +6066,15 @@ the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
 This means that reuse is allowed, provided appropriate credit is given
 and any changes are indicated.
 
+--------
+
 For any use or reproduction of elements that are not owned by the EU,
 permission may need to be sought directly from the respective right
-holders. **The EU does not own the copyright in relation to the
-following elements:**
+holders.
+
+###### The EU does not own the copyright in relation to the following elements:
+
+--------
 
 ##### [Figure 1](#figure-1---openstack-conceptual-architecture) : 
 
@@ -6081,29 +6085,15 @@ Source:
 
 Licence information:
 
-<table style="width:95%;">
-<colgroup>
-<col style="width: 24%" />
-<col style="width: 70%" />
-</colgroup>
-<thead>
-<tr>
-<th><blockquote>
-<p><img src="architecture-images/media/image105.png"
-style="width:1.22222in;height:0.43056in" /></p>
-</blockquote></th>
-<th><blockquote>
-<p>Except where otherwise noted, this document is licensed under <a
-href="https://creativecommons.org/licenses/by/3.0/">Creative Commons
-Attribution 3.0 License</a>. See all <a
-href="https://www.openstack.org/legal">OpenStack Legal
-Documents</a>.</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+<img src="architecture-images/media/image105.png"
+style="width:1.22222in;height:0.43056in" />
+
+Except where otherwise noted, this document is licensed under [Creative
+Commons Attribution 3.0
+License](https://creativecommons.org/licenses/by/3.0/). See
+all [OpenStack Legal Documents](https://www.openstack.org/legal).
+
+--------
 
 ##### [Figure 2](#figure-2---ceph-architecture) :
 
@@ -6113,21 +6103,10 @@ Source: <https://docs.ceph.com/en/latest/architecture/>
 
 Licence information:
 
-<table style="width:96%;">
-<colgroup>
-<col style="width: 95%" />
-</colgroup>
-<thead>
-<tr>
-<th><blockquote>
-<p>© Copyright 2016, Ceph authors and contributors. Licensed under
-Creative Commons Attribution Share Alike 3.0 (CC-BY-SA-3.0).</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+© Copyright 2016, Ceph authors and contributors. Licensed under Creative
+Commons Attribution Share Alike 3.0 (CC-BY-SA-3.0).
+
+--------
 
 ##### [Figure 3](#figure-3---okd-architecture-overview) :
 
@@ -6137,21 +6116,10 @@ Source: <https://docs.okd.io/3.11/architecture/index.html>
 
 Licence information:
 
-<table style="width:96%;">
-<colgroup>
-<col style="width: 95%" />
-</colgroup>
-<thead>
-<tr>
-<th><blockquote>
-<p>Copyright © 2026 OKD Contributors &amp; Red Hat. OKD, including its
-documentation, is released under the Apache 2.0 License.</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+Copyright © 2026 OKD Contributors & Red Hat. OKD, including its
+documentation, is released under the Apache 2.0 License.
+
+--------
 
 ##### [Figure 4](#figure-4---fts-architecture-overview) :
 
@@ -6161,41 +6129,17 @@ Source: <https://pos.sissa.it/239/028/pdf>
 
 Licence information:
 
-<table style="width:96%;">
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 69%" />
-</colgroup>
-<thead>
-<tr>
-<th><blockquote>
-<p>Corresponding author</p>
-</blockquote></th>
-<th><blockquote>
-<p>A. Kiryanov*, A. Alvarez Ayllon, M. Salichos and O. Keeble</p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><blockquote>
-<p>Open Access</p>
-</blockquote></td>
-<td></td>
-</tr>
-<tr>
-<td><blockquote>
-<p><img src="architecture-images/media/image106.png"
-style="width:1.22222in;height:0.43056in" /></p>
-</blockquote></td>
-<td><blockquote>
-<p>Copyright owned by the author(s) under the term of the <a
-href="https://creativecommons.org/licenses/by-nc-sa/1.0/">Creative
-Commons Attribution-NonCommercial-ShareAlike</a>.</p>
-</blockquote></td>
-</tr>
-</tbody>
-</table>
+| Corresponding author | A. Kiryanov\*, A. Alvarez Ayllon, M. Salichos and O. Keeble |
+|----|----|
+| Open Access |  |
+
+<img src="architecture-images/media/image106.png"
+style="width:1.22222in;height:0.43056in" />
+
+Copyright owned by the author(s) under the term of the [Creative Commons
+Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/1.0/)
+
+--------
 
 ##### [Figure 8](#figure-8---owncloud-ocis-architecture-overview---in-comparison-with-oc10) :
 
@@ -6213,60 +6157,37 @@ Licence information:
 </colgroup>
 <thead>
 <tr>
-<th><blockquote>
-<p>© Copyright 2011-2026, The ownCloud developers.</p>
-</blockquote></th>
-<th><blockquote>
-<p>Copyright © 2026 ownCloud GmbH, a Kiteworks company.</p>
-</blockquote></th>
+<th>© Copyright 2011-2026, The ownCloud developers.</th>
+<th>Copyright © 2026 ownCloud GmbH, a Kiteworks company.</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><blockquote>
-<p>Content Usage</p>
-</blockquote></td>
+<td>Content Usage</td>
 <td></td>
 </tr>
 <tr>
-<td style="text-align: center;"><blockquote>
-<p>Reproduction:</p>
-</blockquote></td>
-<td><blockquote>
-<p>Reproduction, editing, or distribution of content from ownCloud
-websites requires written permission.</p>
-</blockquote></td>
+<td>Reproduction:</td>
+<td>Reproduction, editing, or distribution of content from ownCloud
+websites requires written permission.</td>
 </tr>
 <tr>
-<td><blockquote>
-<p>Copyright Ownership</p>
-</blockquote></td>
+<td>Copyright Ownership</td>
 <td></td>
 </tr>
 <tr>
-<td><blockquote>
-<p>Copyrighted Content:</p>
-</blockquote></td>
-<td><blockquote>
-<p>Contents, compilations, and software developed by ownCloud GmbH are
-subject to German copyright laws.</p>
-</blockquote></td>
+<td>Copyrighted Content:</td>
+<td>Contents, compilations, and software developed by ownCloud GmbH are
+subject to German copyright laws.</td>
 </tr>
 <tr>
-<td><blockquote>
-<p>Third-Party Rights:</p>
-</blockquote></td>
-<td><blockquote>
-<p>ownCloud respects third-party intellectual property and requires
-users to respect its own.</p>
-</blockquote></td>
+<td>Third-Party Rights:</td>
+<td>ownCloud respects third-party intellectual property and requires
+users to respect its own.</td>
 </tr>
 <tr>
-<td><blockquote>
-<p>Copyright</p>
-</blockquote></td>
-<td><blockquote>
-<p>Contents and compilations published on these websites by the
+<td>Copyright</td>
+<td><p>Contents and compilations published on these websites by the
 providers are subject to German copyright laws. Reproduction, editing,
 distribution as well as the use of any kind outside the scope of the
 copyright law require a written permission of the author or originator.
@@ -6278,11 +6199,12 @@ originator is prohibited.</p>
 on these websites do not originate from the provider. Contributions of
 third parties on this site are indicated as such. However, if you notice
 any violations of copyright law, please inform us. Such contents will be
-removed immediately.</p>
-</blockquote></td>
+removed immediately.</p></td>
 </tr>
 </tbody>
 </table>
+
+--------
 
 ##### [Figure 9](#figure-9---jupyter-hub-architecture-overview) :
 
@@ -6293,20 +6215,10 @@ Source:
 
 Licence information:
 
-<table style="width:96%;">
-<colgroup>
-<col style="width: 95%" />
-</colgroup>
-<thead>
-<tr>
-<th><blockquote>
-<p>© Copyright 2026, Project Jupyter Contributors.</p>
-<p>Distributed under the terms of the 3-Clause BSD License.</p>
-<p><a
-href="https://jupyter.org/governance/projectlicense/">https://jupyter.org/governance/projectlicense/</a></p>
-</blockquote></th>
-</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
+© Copyright 2026, Project Jupyter Contributors.
+
+Distributed under the terms of the 3-Clause BSD License.
+
+<https://jupyter.org/governance/projectlicense/>
+
+--------
