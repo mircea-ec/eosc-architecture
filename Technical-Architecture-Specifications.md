@@ -1575,8 +1575,9 @@ storage resources.
 <img src="architecture-images/media/image2.png"
 style="width:4.9375in;height:3.98958in" />
 
-<span id="Figure_1" class="anchor"></span>**Figure 1 - OpenStack
-conceptual architecture,** [Copyright and source](#Figure_1_Copyright)
+###### **Figure 1** - OpenStack conceptual architecture
+
+[Copyright and source](#openstack-conceptual-architecture)
 
 OpenStack functions as the orchestration and control plane responsible
 for provisioning, scheduling, and lifecycle management of virtual
@@ -1601,8 +1602,9 @@ high-throughput workloads.
 <img src="architecture-images/media/image3.png"
 style="width:3.70833in;height:2.64583in" />
 
-<span id="Figure_2" class="anchor"></span>**Figure 2 - Ceph
-architecture,** [Copyright and source](#Figure_2_Copyright)
+###### **Figure 2** - Ceph architecture
+
+[Copyright and source](#ceph-architecture)
 
 The integration of Ceph with OpenStack establishes a tightly coupled
 compute-and-storage environment in which persistent storage volumes,
@@ -1628,8 +1630,9 @@ developers and research teams.
 <img src="architecture-images/media/image4.png"
 style="width:4.18in;height:3.31667in" />
 
-<span id="Figure_3" class="anchor"></span>**Figure 3 - OKD architecture
-overview,** [Copyright and source](#Figure_3_Copyright)
+###### **Figure 3** - OKD architecture overview
+
+[Copyright and source](#okd-architecture-overview)
 
 The OKD architecture encompasses master nodes responsible for scheduling
 and control, worker nodes executing container workloads, and integrated
@@ -1658,8 +1661,9 @@ large-scale third-party data transfers.
 <img src="architecture-images/media/image5.png"
 style="width:4.46333in;height:2.38in" />
 
-<span id="Figure_4" class="anchor"></span>**Figure 4 - FTS architecture
-overview,** [Copyright and source](#Figure_4_Copyright)
+###### **Figure 4** - FTS architecture overview
+
+[Copyright and source](#fts-architecture-overview)
 
 FTS leverages **GridFTP** as the underlying data transfer protocol,
 enabling parallelised, secure, and optimised file movement across
@@ -1772,10 +1776,10 @@ performance, maintainability, and extensibility.
 <img src="architecture-images/media/image9.png"
 style="width:5.24333in;height:2.63667in" />
 
-<span id="Figure_8" class="anchor"></span>**Figure 8 - ownCloud OCIS
-architecture overview - in comparison with OC10,**
+###### Figure 8 - ownCloud OCIS architecture overview - in comparison with OC10
 
-[Copyright and source](#Figure_8_Copyright)
+[Copyright and
+source](#owncloud-ocis-architecture-overview---in-comparison-with-oc10)
 
 The platform provides secure file storage, synchronisation, and sharing
 capabilities accessible through web interfaces, desktop clients, and
@@ -1796,8 +1800,9 @@ individual users.
 <img src="architecture-images/media/image10.jpg"
 style="width:2.86458in;height:2.77083in" />
 
-<span id="Figure_9" class="anchor"></span>**Figure 9 - Jupyter Hub
-architecture overview,** [Copyright and source](#Figure_9_Copyright)
+###### **Figure 9** - Jupyter Hub architecture overview
+
+[Copyright and source](#jupyter-hub-architecture-overview)
 
 This service enables researchers to perform exploratory data analysis,
 computational experiments, and visual analytics directly within
@@ -6067,10 +6072,14 @@ permission may need to be sought directly from the respective right
 holders. **The EU does not own the copyright in relation to the
 following elements:**
 
-[Figure 1](#Figure_1) **-** <span id="Figure_1_Copyright"
-class="anchor"></span>**OpenStack conceptual architecture**, source:
+##### [Figure 1](#figure-1---openstack-conceptual-architecture) : 
+
+##### OpenStack conceptual architecture
+
+Source:
 <https://docs.openstack.org/install-guide/get-started-conceptual-architecture.html>
-, licence information:
+
+Licence information:
 
 <table style="width:95%;">
 <colgroup>
@@ -6096,9 +6105,13 @@ Documents</a>.</p>
 </tbody>
 </table>
 
-[Figure 2](#Figure_2) **-** <span id="Figure_2_Copyright"
-class="anchor"></span>**Ceph architecture**, source:
-<https://docs.ceph.com/en/latest/architecture/> , licence information:
+##### [Figure 2](#figure-2---ceph-architecture) :
+
+##### Ceph architecture
+
+Source: <https://docs.ceph.com/en/latest/architecture/>
+
+Licence information:
 
 <table style="width:96%;">
 <colgroup>
@@ -6116,10 +6129,13 @@ Creative Commons Attribution Share Alike 3.0 (CC-BY-SA-3.0).</p>
 </tbody>
 </table>
 
-[Figure 3](#Figure_3) **-** <span id="Figure_3_Copyright"
-class="anchor"></span>**OKD architecture overview**, source:
-<https://docs.okd.io/3.11/architecture/index.html> , licence
-information:
+##### [Figure 3](#figure-3---okd-architecture-overview) :
+
+##### OKD architecture overview
+
+Source: <https://docs.okd.io/3.11/architecture/index.html>
+
+Licence information:
 
 <table style="width:96%;">
 <colgroup>
@@ -6137,9 +6153,13 @@ documentation, is released under the Apache 2.0 License.</p>
 </tbody>
 </table>
 
-[Figure 4](#Figure_4) **-** <span id="Figure_4_Copyright"
-class="anchor"></span>**FTS architecture overview**, source:
-<https://pos.sissa.it/239/028/pdf> , licence information:
+##### [Figure 4](#figure-4---fts-architecture-overview) :
+
+##### FTS architecture overview
+
+Source: <https://pos.sissa.it/239/028/pdf>
+
+Licence information:
 
 <table style="width:96%;">
 <colgroup>
@@ -6177,11 +6197,14 @@ Commons Attribution-NonCommercial-ShareAlike</a>.</p>
 </tbody>
 </table>
 
-[Figure 8](#Figure_8) **-** <span id="Figure_8_Copyright"
-class="anchor"></span>**ownCloud OCIS architecture overview** - in
-comparison with OC10, source:
-<https://doc.owncloud.com/ocis/next/architecture/architecture.html> ,
-licence information:
+##### [Figure 8](#figure-8---owncloud-ocis-architecture-overview---in-comparison-with-oc10) :
+
+##### ownCloud OCIS architecture overview - in comparison with OC10
+
+Source:
+<https://doc.owncloud.com/ocis/next/architecture/architecture.html>
+
+Licence information:
 
 <table style="width:96%;">
 <colgroup>
@@ -6261,10 +6284,14 @@ removed immediately.</p>
 </tbody>
 </table>
 
-[Figure 9](#Figure_9) **-** <span id="Figure_9_Copyright"
-class="anchor"></span>**Jupyter Hub architecture overview**, source:
+##### [Figure 9](#figure-9---jupyter-hub-architecture-overview) :
+
+##### Jupyter Hub architecture overview
+
+Source:
 <https://jupyterhub.readthedocs.io/en/latest/reference/technical-overview.html>
-, licence information:
+
+Licence information:
 
 <table style="width:96%;">
 <colgroup>
