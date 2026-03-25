@@ -149,12 +149,12 @@ Performance Computing and Applications</p></th>
 | **Settings** | **Value** |
 |----|----|
 | **Document Title:** | Managed Services for the European Open Science Cloud (EOSC) Platform |
-| **Document Name:** | Architecture_Overview_Document_10_03_2026-v1.0 |
+| **Document Name:** | Architecture_Overview_Document_25_03_2026-v1.0 |
 | **Project Title:** | EOSC EU Node |
 | **Document Author:** | DG CNECT |
 | **Doc. Version:** | 1.0 |
 | **Sensitivity:** | Limited |
-| **Date:** | 10/03/2026 |
+| **Date:** | 25/03/2026 |
 
 **Document history:** 
 
@@ -163,7 +163,7 @@ reverse chronological order (latest version first). 
 
 | **Revision**  | **Date**  | **Created by**  | **Short Description of Changes**  |
 |----|----|----|----|
-|  1.0 | 10 March 2026 |  DG CNECT | First version – Submitted for Acceptance |
+|  1.0 | 25 March 2026 |  DG CNECT | First version – Submitted for Acceptance |
 
 ## 1. Introduction
 
@@ -1573,11 +1573,9 @@ Together, these components form a cohesive Infrastructure-as-a-Service
 storage resources.
 
 <img src="architecture-images/media/image2.png"
-style="width:4.9375in;height:3.98958in" />
+style="width:6.5in;height:4.54722in" />
 
 ###### **Figure 1** - OpenStack conceptual architecture
-
-[Copyright and source](#openstack-conceptual-architecture)
 
 OpenStack functions as the orchestration and control plane responsible
 for provisioning, scheduling, and lifecycle management of virtual
@@ -1600,11 +1598,9 @@ that collectively ensure data integrity and consistent performance under
 high-throughput workloads.
 
 <img src="architecture-images/media/image3.png"
-style="width:3.70833in;height:2.64583in" />
+style="width:6.5in;height:4.81528in" />
 
 ###### **Figure 2** - Ceph architecture
-
-[Copyright and source](#ceph-architecture)
 
 The integration of Ceph with OpenStack establishes a tightly coupled
 compute-and-storage environment in which persistent storage volumes,
@@ -1628,11 +1624,9 @@ management while abstracting infrastructure complexity from application
 developers and research teams.
 
 <img src="architecture-images/media/image4.png"
-style="width:4.18in;height:3.31667in" />
+style="width:6.5in;height:5.44097in" />
 
 ###### **Figure 3** - OKD architecture overview
-
-[Copyright and source](#okd-architecture-overview)
 
 The OKD architecture encompasses master nodes responsible for scheduling
 and control, worker nodes executing container workloads, and integrated
@@ -1659,11 +1653,9 @@ as a centralised orchestration and monitoring component coordinating
 large-scale third-party data transfers.
 
 <img src="architecture-images/media/image5.png"
-style="width:4.46333in;height:2.38in" />
+style="width:6.44444in;height:4.38889in" />
 
 ###### **Figure 4** - FTS architecture overview
-
-[Copyright and source](#fts-architecture-overview)
 
 FTS leverages **GridFTP** as the underlying data transfer protocol,
 enabling parallelised, secure, and optimised file movement across
@@ -1693,8 +1685,8 @@ capabilities provided by OpenStack and Ceph, thereby establishing a
 layered stack in which container orchestration is directly supported by
 virtualised infrastructure resources.
 
-<img src="architecture-images/media/image6.jpg"
-style="width:4.33333in;height:2.1875in" />
+<img src="architecture-images/media/image6.png"
+style="width:6.5in;height:2.75in" />
 
 **Figure 5 - Integrated layers of compute, storage and services at data
 centres**
@@ -1774,12 +1766,9 @@ design patterns with modular service components, thereby enhancing
 performance, maintainability, and extensibility.
 
 <img src="architecture-images/media/image9.png"
-style="width:5.24333in;height:2.63667in" />
+style="width:6.5in;height:4.15278in" />
 
 ###### Figure 8 - ownCloud OCIS architecture overview - in comparison with OC10
-
-[Copyright and
-source](#owncloud-ocis-architecture-overview---in-comparison-with-oc10)
 
 The platform provides secure file storage, synchronisation, and sharing
 capabilities accessible through web interfaces, desktop clients, and
@@ -1797,12 +1786,10 @@ JupyterHub manages authentication, resource allocation, and session
 lifecycle control while enabling isolated execution environments for
 individual users.
 
-<img src="architecture-images/media/image10.jpg"
-style="width:2.86458in;height:2.77083in" />
+<img src="architecture-images/media/image10.png"
+style="width:5in;height:5.83333in" />
 
 ###### **Figure 9** - Jupyter Hub architecture overview
-
-[Copyright and source](#jupyter-hub-architecture-overview)
 
 This service enables researchers to perform exploratory data analysis,
 computational experiments, and visual analytics directly within
@@ -6066,159 +6053,6 @@ the Creative Commons Attribution 4.0 International (CC BY 4.0) licence
 This means that reuse is allowed, provided appropriate credit is given
 and any changes are indicated.
 
---------
-
 For any use or reproduction of elements that are not owned by the EU,
 permission may need to be sought directly from the respective right
 holders.
-
-###### The EU does not own the copyright in relation to the following elements:
-
---------
-
-##### [Figure 1](#figure-1---openstack-conceptual-architecture) : 
-
-##### OpenStack conceptual architecture
-
-Source:
-<https://docs.openstack.org/install-guide/get-started-conceptual-architecture.html>
-
-Licence information:
-
-<img src="architecture-images/media/image105.png"
-style="width:1.22222in;height:0.43056in" />
-
-Except where otherwise noted, this document is licensed under [Creative
-Commons Attribution 3.0
-License](https://creativecommons.org/licenses/by/3.0/). See
-all [OpenStack Legal Documents](https://www.openstack.org/legal).
-
---------
-
-##### [Figure 2](#figure-2---ceph-architecture) :
-
-##### Ceph architecture
-
-Source: <https://docs.ceph.com/en/latest/architecture/>
-
-Licence information:
-
-© Copyright 2016, Ceph authors and contributors. Licensed under Creative
-Commons Attribution Share Alike 3.0 (CC-BY-SA-3.0).
-
---------
-
-##### [Figure 3](#figure-3---okd-architecture-overview) :
-
-##### OKD architecture overview
-
-Source: <https://docs.okd.io/3.11/architecture/index.html>
-
-Licence information:
-
-Copyright © 2026 OKD Contributors & Red Hat. OKD, including its
-documentation, is released under the Apache 2.0 License.
-
---------
-
-##### [Figure 4](#figure-4---fts-architecture-overview) :
-
-##### FTS architecture overview
-
-Source: <https://pos.sissa.it/239/028/pdf>
-
-Licence information:
-
-| Corresponding author | A. Kiryanov\*, A. Alvarez Ayllon, M. Salichos and O. Keeble |
-|----|----|
-| Open Access |  |
-
-<img src="architecture-images/media/image106.png"
-style="width:1.22222in;height:0.43056in" />
-
-Copyright owned by the author(s) under the term of the [Creative Commons
-Attribution-NonCommercial-ShareAlike](https://creativecommons.org/licenses/by-nc-sa/1.0/)
-
---------
-
-##### [Figure 8](#figure-8---owncloud-ocis-architecture-overview---in-comparison-with-oc10) :
-
-##### ownCloud OCIS architecture overview - in comparison with OC10
-
-Source:
-<https://doc.owncloud.com/ocis/next/architecture/architecture.html>
-
-Licence information:
-
-<table style="width:96%;">
-<colgroup>
-<col style="width: 26%" />
-<col style="width: 69%" />
-</colgroup>
-<thead>
-<tr>
-<th>© Copyright 2011-2026, The ownCloud developers.</th>
-<th>Copyright © 2026 ownCloud GmbH, a Kiteworks company.</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Content Usage</td>
-<td></td>
-</tr>
-<tr>
-<td>Reproduction:</td>
-<td>Reproduction, editing, or distribution of content from ownCloud
-websites requires written permission.</td>
-</tr>
-<tr>
-<td>Copyright Ownership</td>
-<td></td>
-</tr>
-<tr>
-<td>Copyrighted Content:</td>
-<td>Contents, compilations, and software developed by ownCloud GmbH are
-subject to German copyright laws.</td>
-</tr>
-<tr>
-<td>Third-Party Rights:</td>
-<td>ownCloud respects third-party intellectual property and requires
-users to respect its own.</td>
-</tr>
-<tr>
-<td>Copyright</td>
-<td><p>Contents and compilations published on these websites by the
-providers are subject to German copyright laws. Reproduction, editing,
-distribution as well as the use of any kind outside the scope of the
-copyright law require a written permission of the author or originator.
-Downloads and copies of these websites are permitted for private use
-only.</p>
-<p>The commercial use of our contents without permission of the
-originator is prohibited.</p>
-<p>Copyright laws of third parties are respected as long as the contents
-on these websites do not originate from the provider. Contributions of
-third parties on this site are indicated as such. However, if you notice
-any violations of copyright law, please inform us. Such contents will be
-removed immediately.</p></td>
-</tr>
-</tbody>
-</table>
-
---------
-
-##### [Figure 9](#figure-9---jupyter-hub-architecture-overview) :
-
-##### Jupyter Hub architecture overview
-
-Source:
-<https://jupyterhub.readthedocs.io/en/latest/reference/technical-overview.html>
-
-Licence information:
-
-© Copyright 2026, Project Jupyter Contributors.
-
-Distributed under the terms of the 3-Clause BSD License.
-
-<https://jupyter.org/governance/projectlicense/>
-
---------
